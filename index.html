@@ -1,191 +1,72 @@
 <!DOCTYPE html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-
-    <script>
-        L_NO_TOUCH = false;
-        L_DISABLE_3D = false;
-    </script>
-
-    <style>
-        html,
-        body {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-    <style>
-        #map {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-        }
-    </style>
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-
-    <meta name="viewport" content="width=device-width,
-                        initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-    <style>
-        #map_af1ade91335842e99ca3120152b8be50 {
-            position: relative;
-            width: 100.0%;
-            height: 100.0%;
-            left: 0.0%;
-            top: 0.0%;
-        }
-    </style>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.2/leaflet.draw.css"/>
-    <script src="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ljagis/leaflet-measure@2.1.7/dist/leaflet-measure.min.css"/>
-    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"/>
-    <script src="https://raw.githack.com/digidem/leaflet-side-by-side/gh-pages/leaflet-side-by-side.js"></script>
-</head>
-<body>
-
-    <div class="folium-map" id="map_af1ade91335842e99ca3120152b8be50"></div>
-
-</body>
-<script>
-
-    var map_af1ade91335842e99ca3120152b8be50 = L.map("map_af1ade91335842e99ca3120152b8be50", {
-        center: [
-            20.0, 0.0
-        ],
-        crs: L.CRS.EPSG3857,
-        zoom: 2,
-        zoomControl: true,
-        preferCanvas: false,
-        drawExport: false,
-        layersControl: true
-    });
-    L.control.scale().addTo(map_af1ade91335842e99ca3120152b8be50);
+  			<h1> 							<span class="subheading-category">Granier Camille</span>
+					</h1>
+		
+          <!-- on masque le tag -->
+      				
+	
+	
+	
+			<div class="items-leading clearfix">
+							<div class="leading-0"
+					itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+						<div class="page-header">
+					<h2 itemprop="name">
+									Camille Granier 							</h2>
+		
+		
+		
+			</div>
 
 
-    var tile_layer_771c761aae3e44eca8b6c4d96f35b232 = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        "attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.",
-        "detectRetina": false,
-        "maxNativeZoom": 24,
-        "maxZoom": 24,
-        "minZoom": 0,
-        "noWrap": false,
-        "opacity": 1,
-        "subdomains": "abc",
-        "tms": false
-    }).addTo(map_af1ade91335842e99ca3120152b8be50);
 
 
-    L.control.fullscreen({"forceSeparateButton": false, "position": "topleft", "title": "Full Screen", "titleCancel": "Exit Full Screen"}).addTo(map_af1ade91335842e99ca3120152b8be50);
 
 
-    var options = {
-        position: "topleft",
-        draw: {},
-        edit: {}
-    }
-    // FeatureGroup is to store editable layers.
-    var drawnItems = new L.featureGroup().addTo(map_af1ade91335842e99ca3120152b8be50);
-    options.edit.featureGroup = drawnItems;
-    var draw_control_89687cbc059143e7a7e9e498151a7fd1 = new L.Control.Draw(options).addTo(map_af1ade91335842e99ca3120152b8be50);
-    map_af1ade91335842e99ca3120152b8be50.on(L.Draw.Event.CREATED, function (e) {
-        var layer = e.layer,
-            type = e.layerType;
-        var coords = JSON.stringify(layer.toGeoJSON());
-        layer.on('click', function () {
-            alert(coords);
-            console.log(coords);
-        });
-        drawnItems.addLayer(layer);
-    });
-    map_af1ade91335842e99ca3120152b8be50.on('draw:created', function (e) {
-        drawnItems.addLayer(e.layer);
-    });
+<div class="entry-content">
 
+			
+	<p><span style="font-size: 24pt;">Postdoctoral Researcher</span></p>
+<p><span style="font-size: 12pt;"><span style="vertical-align: super; background-color: inherit; color: inherit; font-family: inherit; caret-color: auto;">email:&nbsp;</span><a href="javascript:/* This email address is being protected from spambots.*/" style="font-size: 10pt; vertical-align: super; background-color: inherit; font-family: inherit;"><span class="cloaked_email ep_cbe052f3"><span data-ep-bf3a3="eu" data-ep-aacea="cami"><span data-ep-bf3a3="&#111;&#99;a&#46;" data-ep-aacea="&#108;&#108;e."><span data-ep-aacea="&#103;&#114;&#97;n" data-ep-bf3a3="&#105;&#101;&#114;&#64;"></span></span></span></span><span class="cloaked_email ep_d07ffa4e" style="display:none;"><span data-ep-aacea="c&#97;&#109;&#105;" data-ep-bf3a3="&#101;&#117;"><span data-ep-bf3a3="&#111;&#99;&#97;&#46;" data-ep-aacea="l&#108;&#101;&#46;"><span data-ep-aacea="&#103;&#114;&#97;&#110;" data-ep-bf3a3="i&#101;&#114;&#64;"></span></span></span></span></a><script type="text/javascript">emailProtector.addCloakedMailto("ep_d07ffa4e", 1);</script></span><span style="font-size: 10pt; vertical-align: super; background-color: inherit; color: inherit; font-family: inherit; caret-color: auto;"></span></p>
+<h2><b>Research </b><b>&nbsp; &nbsp; &nbsp;</b><span style="font-size: 14pt;"><b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></span></h2>
+<p>&nbsp; &nbsp; I am a postdoctoral research assistant under the joint supervision of <a href="/fr/thierry-passot">Thierry Passot</a> and Emanuele Tassi in the <a href="https://fluid.oca.eu/fr/fluid">Fluid and Plasma Research Group</a>. In 2022, I received my PhD in plasma physics.</p>
+<p>&nbsp; &nbsp; My research work is concerned with the important universal process of magnetic reconnection. Magnetic reconnection is a complex mutli-scale phenomenon leading to a change of topology of the magnetic field and responsible for powering some of the most explosive release of magnetic energy in astrophysical plasmas, such as solar flares, nonthermal emissions of pulsar winds, and gamma-ray flares. In particular, instabilities of reconnecting current sheets leading to the formation of secondary magnetic islands, called plasmoids,&nbsp;have more recently played an important role in advancing the understanding of magnetic reconnection.&nbsp;My PhD thesis addresses some important questions concerning collisionless reconnection in 2D systems. The main focus is on the simulations and mathematical modelling of the fundamental physics of the process,&nbsp;as well as on the investigation of the influence of&nbsp;of an anisotropic equilibrium temperature distribution and that of a finite βe parameter on magnetic reconnection and the formation of plasmoids.&nbsp;</p>
+<p>&nbsp; &nbsp;You can download <a href="https://github.com/K1000Granier/K1000Granier.github.io/raw/main/CV_CGranier.pdf"><strong>my CV here</strong></a><strong>.</strong></p>
+<p>&nbsp;</p>
+<h2><strong>Publications,&nbsp;<strong>Proceedings (∗)</strong></strong></h2>
+<p><strong><em>Submitted </em></strong><strong>&nbsp; &nbsp; &nbsp;</strong>C. Granier, R. Numata, D. Borgogno, E. Tassi, D. Grasso, <em>Investigation of the collisionless plasmoid instability based on fluid, gyrofluid and&nbsp; gyrokinetic integrated approach. </em><a href="https://arxiv.org/abs/2302.03073">https://arxiv.org/abs/2302.03073</a></p>
+<p><strong>2022&nbsp; &nbsp; &nbsp; &nbsp;</strong>C. Granier, D. Borgogno, L. Comisso, D. Grasso, E. Tassi, R. Numata, <em>Marginally Stable Current Sheets in Collisionless Magnetic Reconnection</em>. Phys. Rev. E. 106, L043201&nbsp;<a href="https://doi.org/10.1103/PhysRevE.106.L043201">https://doi.org/10.1103/PhysRevE.106.L043201</a></p>
+<p><strong>2022</strong>&nbsp; &nbsp; &nbsp; &nbsp;C. Granier, D. Borgogno, L. Comisso, D. Grasso, R. Numata, E. Tassi <em>Fluid and gyrokinetic simulations of plasmoid formation in collisionless plasmas, </em><a href="http://ocs.ciemat.es/EPS2022PAP/pdf/O1.402.pdf">Proceedings of the 48th EPS Conference on Plasma Physics, O1.402</a> <strong>(∗)</strong></p>
+<p><strong>2022</strong>&nbsp; &nbsp; &nbsp; &nbsp;C. Granier, D. Borgogno, D. Grasso, E. Tassi, <em>Gyrofluid analysis of electron&nbsp;</em><em>β</em><em>e effects on collisionless reconnection</em>, J. Plasma Phys. 88&nbsp;905880111.&nbsp;<a href="https://doi.org/10.1017/S0022377822000010">https://doi.org/10.1017/S0022377822000010</a></p>
+<p><strong>2021</strong>&nbsp; &nbsp; &nbsp; C. Granier, E. Tassi, D. Borgogno, D. Grasso, <em>Impact of electron temperature anisotropy on the collisionless tearing mode instability in the presence of a strong guide field</em>, Physics of Plasmas, 28 022112.&nbsp;<a href="https://doi.org/10.1063/5.0037227">https://doi.org/10.1063/5.0037227</a></p>
+<p><strong>2020</strong>&nbsp; &nbsp; &nbsp; C. Granier &amp; E. Tassi, <em>Linear stability of magnetic vortex chains in a plasma in the presence of equilibrium electron temperature anisotropy, </em>J. Phys. A: Math and Theor<em>., </em>53 385702.&nbsp;<a href="https://doi.org/10.1088/1751-8121/aba466">https://doi.org/10.1088/1751-8121/aba466</a></p>
+<h3>&nbsp;</h3>
+<h3 style="padding-left: 30px;">&nbsp; &nbsp;<img src="https://raw.githubusercontent.com/K1000Granier/K1000Granier.github.io/main/assets/images/coverpic.png" alt="" width="671" height="210" /></h3>
+<h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p> 
+	
+	
+	
+		</div>				</div>
+									</div><!-- end items-leading -->
+		
 
-    var measure_control_147149cb42564feb9a769a2657f617f6 = new L.Control.Measure({
-        "position": "bottomleft",
-        "primaryAreaUnit": "sqmeters",
-        "primaryLengthUnit": "meters",
-        "secondaryAreaUnit": "acres",
-        "secondaryLengthUnit": "miles"
-    });
-    map_af1ade91335842e99ca3120152b8be50.addControl(measure_control_147149cb42564feb9a769a2657f617f6);
+	
+	
+		</div>
 
-
-    L.Control.geocoder({"collapsed": true, "defaultMarkGeocode": true, "position": "topleft"}).on('markgeocode', function (e) {
-        map_af1ade91335842e99ca3120152b8be50.setView(e.geocode.center, 11);
-    }).addTo(map_af1ade91335842e99ca3120152b8be50);
-
-
-    map_af1ade91335842e99ca3120152b8be50.fitBounds([
-        [
-            20, 0
-        ],
-        [
-            20, 0
-        ]
-    ], {"maxZoom": 2});
-
-
-    var tile_layer_19134bbd9cf0448099fcd12defc67263 = L.tileLayer("https://a.tile.opentopomap.org/{z}/{x}/{y}.png", {
-        "attribution": "Map data: (C) OpenStreetMap contributors, SRTM | Map style: (C) OpenTopoMap (CC-BY-SA)",
-        "detectRetina": false,
-        "maxNativeZoom": 17,
-        "maxZoom": 17,
-        "minZoom": 0,
-        "noWrap": false,
-        "opacity": 1,
-        "subdomains": "abc",
-        "tms": false
-    }).addTo(map_af1ade91335842e99ca3120152b8be50);
-
-
-    var tile_layer_e4e7ba8db35c48938dd2c8783e827501 = L.tileLayer("https://mt1.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}", {
-        "attribution": "Google",
-        "detectRetina": false,
-        "maxNativeZoom": 22,
-        "maxZoom": 22,
-        "minZoom": 0,
-        "noWrap": false,
-        "opacity": 1,
-        "subdomains": "abc",
-        "tms": false
-    }).addTo(map_af1ade91335842e99ca3120152b8be50);
-
-
-    var split_control_5cd2a7fb3cd240a6b26f0c9f6f2d3cd6 = L.control.sideBySide(tile_layer_19134bbd9cf0448099fcd12defc67263, tile_layer_e4e7ba8db35c48938dd2c8783e827501).addTo(map_af1ade91335842e99ca3120152b8be50);
-
-
-    var layer_control_4b43a9a0efec4f71985e8ab4614a5424 = {
-        base_layers: {
-            "openstreetmap": tile_layer_771c761aae3e44eca8b6c4d96f35b232
-        },
-        overlays: {
-            "OpenTopoMap": tile_layer_19134bbd9cf0448099fcd12defc67263,
-            "Google Satellite": tile_layer_e4e7ba8db35c48938dd2c8783e827501,
-            "Split Control": split_control_5cd2a7fb3cd240a6b26f0c9f6f2d3cd6
-        }
-    };
-    L.control.layers(layer_control_4b43a9a0efec4f71985e8ab4614a5424.base_layers, layer_control_4b43a9a0efec4f71985e8ab4614a5424.overlays, {
-        "autoZIndex": true,
-        "collapsed": true,
-        "position": "topright"
-    }).addTo(map_af1ade91335842e99ca3120152b8be50);
-</script>
+</div> <!-- right -->
+</div> <!-- blog-container -->
+				</div></div>	</div></div></div><div id="sunfw_section_footer" class="sunfw-section sunfw_section_footer footer"><div class="container"><div id="row_row-5" class="row ">
+		<div id="column_column-13" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 "><div class="layout-item sunfw-item-custom-html">
+					<div class=" visible-lg visible-md visible-sm visible-xs">
+	<div class="row">
+<div class="col-md-4"><!--
+<p class="text-center"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> <a href="/fr/connexion-cas-lagrange/login?server=1">Connexion</a></p>
+-->
+</div>
+<div class="col-md-4">
+    
+    </html>
