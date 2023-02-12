@@ -48,7 +48,7 @@
 
 .uepunkt {
 float:left;
-margin:10px 10px 0px 45px;
+margin:0px 0px 0px 45px;
 width:120px;
 }
 .uepunkt:hover ul {
@@ -56,57 +56,232 @@ width:120px;
   z-index:500;
 }
 
+<! FOR THE SCROLLER :
+.demo {
+	/* margin: 2rem 0 !important; */
+	padding: 2rem;
+  background-color: #222;
+	color: #eee;
+	background-image: url("/media/brian-patrick-tagalog.jpeg");
+	background-size: cover;
+}
+
+
+
+.demo img {
+	filter: grayscale(70%) contrast(1.5);
+	border: 5px solid #fff;
+}
+
+.demo .scroller {
+	
+	/* scroll bar width, for use in mask calculations */
+  --scrollbar-width: 8px;
+
+  /* mask fade distance, for use in mask calculations */
+  --mask-height: 32px;
+
+  /* If contet exceeds height of container, overflow! */
+  overflow-y: auto;
+
+  /* Our height limit */
+  height: 400px;
+
+  /* Need to make sure container has bottom space,
+  otherwise content at the bottom is always faded out */
+  padding-bottom: var(--mask-height);
+
+  /* Keep some space between content and scrollbar */
+  padding-right: 20px;
+
+  /* The CSS mask */
+
+  /* The content mask is a linear gradient from top to bottom */
+  --mask-image-content: linear-gradient(
+    to bottom,
+    transparent,
+    black var(--mask-height),
+    black calc(100% - var(--mask-height)),
+    transparent
+  );
+
+  /* Here we scale the content gradient to the width of the container 
+  minus the scrollbar width. The height is the full container height */
+  --mask-size-content: calc(100% - var(--scrollbar-width)) 100%;
+
+  /* The scrollbar mask is a black pixel */
+  --mask-image-scrollbar: linear-gradient(black, black);
+
+  /* The width of our black pixel is the width of the scrollbar.
+  The height is the full container height */
+  --mask-size-scrollbar: var(--scrollbar-width) 100%;
+
+  /* Apply the mask image and mask size variables */
+  -webkit-mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+  -webkit-mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+
+  /* Position the content gradient in the top left, and the 
+  scroll gradient in the top right */
+  -webkit-mask-position: 0 0, 100% 0;
+
+  /* We don't repeat our mask images */
+  -webkit-mask-repeat: no-repeat, no-repeat;
+
+
+  /* Apply the mask image and mask size variables */
+  -moz-mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+  -moz-mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+
+  /* Position the content gradient in the top left, and the 
+  scroll gradient in the top right */
+  -moz-mask-position: 0 0, 100% 0;
+
+  /* We don't repeat our mask images */
+  -moz-mask-repeat: no-repeat, no-repeat;
+
+
+  /* Apply the mask image and mask size variables */
+  mask-image: var(--mask-image-content), var(--mask-image-scrollbar);
+  mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
+
+  /* Position the content gradient in the top left, and the 
+  scroll gradient in the top right */
+  mask-position: 0 0, 100% 0;
+
+  /* We don't repeat our mask images */
+  mask-repeat: no-repeat, no-repeat;
+}
+
+/* moz */
+.demo .scroller {
+	scrollbar-width: thin;
+	scrollbar-color: currentColor transparent;
+}
+
+/* webkit */
+.demo .scroller::-webkit-scrollbar {
+	width: var(--scrollbar-width);
+}
+
+.demo .scroller::-webkit-scrollbar-thumb {
+	background-color: currentColor;
+	border-radius: 9999px;
+}
+
+.demo .scroller::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+
+
+img.background {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+      filter: blur(3px);
+      }
 
 /* Main navigation menu */
 #nov{float:right;font-family:'Droid Sans',Verdana,Tahoma,sans-serif;text-align:center;}
 #nov ul{list-style:none;}
-#nov li.uepunkt a{color:#111;display:block;font-size:20px;padding-top:0;text-transform:uppercase;}
+#nov li.uepunkt a{color:#111;display:block;font-size:20px;padding-top:0;text-transform:uppercase;font-weight: bold;}
 #nov li.uepunkt a:hover{color:#111;}
 #nov li.uepunkt a.current{color:#000;}
+  </style> 
 
 
-
-</style> 
-
-
-	
+<img class="background" src="https://github.com/K1000Granier/K1000Granier.github.io/blob/main/background.JPG?raw=true" alt="Aleq">
 			
+
+  
 
 <div class="content">
 <div id="nov" class="clearfix">
-<ul> 
-		
-<li class="uepunkt"><a href="https://k1000granier.github.io">Research</a> 
+<ul> 		
+<li class="uepunkt"><a href="https://k1000granier.github.io/research.html">Research</a> 
 
 </li>		
 			
-<li class="uepunkt"><a href="https://k1000granier.github.io">Publications</a> 
+<li class="uepunkt"><a href="https://k1000granier.github.io/publications.html">Publications</a> 
 
 </li>		
 			
-<li class="uepunkt"><a href="https://k1000granier.github.io">CV</a> 
+<li class="uepunkt"><a href="https://k1000granier.github.io/CV.html">CV</a> 
 </li>		
 </ul>
-
 </div>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p> 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 <p>&nbsp;</p> 
 <p><span style="font-size: 24pt;">Camille Granier</span></p>			
-
 <h2><b>Research </b><b>&nbsp; &nbsp; &nbsp;</b><span style="font-size: 14pt;"><b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></span></h2>
+
 <p>&nbsp; &nbsp; I am a postdoctoral research assistant under the joint supervision of <a href="/fr/thierry-passot">Thierry Passot</a> and Emanuele Tassi in the <a href="https://fluid.oca.eu/fr/fluid">Fluid and Plasma Research Group</a>. In 2022, I received my PhD in plasma physics.</p>
 <p>&nbsp; &nbsp; My research work is concerned with the important universal process of magnetic reconnection. Magnetic reconnection is a complex mutli-scale phenomenon leading to a change of topology of the magnetic field and responsible for powering some of the most explosive release of magnetic energy in astrophysical plasmas, such as solar flares, nonthermal emissions of pulsar winds, and gamma-ray flares. In particular, instabilities of reconnecting current sheets leading to the formation of secondary magnetic islands, called plasmoids,&nbsp;have more recently played an important role in advancing the understanding of magnetic reconnection.&nbsp;My PhD thesis addresses some important questions concerning collisionless reconnection in 2D systems. The main focus is on the simulations and mathematical modelling of the fundamental physics of the process,&nbsp;as well as on the investigation of the influence of&nbsp;of an anisotropic equilibrium temperature distribution and that of a finite βe parameter on magnetic reconnection and the formation of plasmoids.&nbsp;</p>
 <p>&nbsp;</p><h3>&nbsp;</h3>
-<h3><img src="https://raw.githubusercontent.com/K1000Granier/K1000Granier.github.io/main/assets/images/coverpic.png" alt="" width="900" /></h3>
-<h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h2>
-<p>&nbsp;</p>
-<p>&nbsp;</p> 	</div>				</div>
-									</div><!-- end items-leading -->
 
+
+
+<h2><b>Temperature anisotropy and reconnection </b><b>&nbsp; &nbsp; &nbsp;</b><span style="font-size: 14pt;"><b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></span></h2>
+
+<div class="demo">
+<div class="scroller">
+  <p>&nbsp; &nbsp; A feature of collisionless plasmas is that they can exhibit particle distribution functions that are anisotropic with respect to the direction of the magnetic field. This can lead in particular to anisotropic temperature distributions. A natural question in the theory of collisionless plasmas concerns then the influence of temperature anisotropy on characteristic features of reconnection, such as the linear growth rate of the tearing mode. \\&nbsp;</p>
+  <p>&nbsp; &nbsp;In my Thesis, I presented  an analytical and numerical investigation of the influence of electron temperature anisotropy on the reconnection growth rate in the regime of strong guide field, which is still little explored .&nbsp;</p>
+    <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+    <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+    <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+      <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+      <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+      <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+
+  <p>&nbsp;</p><h3>&nbsp;</h3>
+<p>&nbsp;</p>
+<p>&nbsp;</p> 
+</div>
+</div>
+
+
+<h3><img src="https://raw.githubusercontent.com/K1000Granier/K1000Granier.github.io/main/assets/images/coverpic.png" alt="" width="900" /></h3>
+
+  
+<h2><b>Collisionless plasmoid instability</b><b>&nbsp; &nbsp; &nbsp;</b><span style="font-size: 14pt;"><b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></span></h2>
+
+
+
+<div class="demo">
+<div class="scroller">
+  <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+    <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+    <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+    <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+    <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>  <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>
+    <p>&nbsp; &nbsp; COMING SOON  \\&nbsp;</p>
+  <p>&nbsp; &nbsp;COMIG SOON .&nbsp;</p>    
+<p>&nbsp;</p><h3>&nbsp;</h3>
+<p>&nbsp;</p>
+<p>&nbsp;</p> 
+</div>
+</div>
+
+
+</div>
 
 
 </body>
