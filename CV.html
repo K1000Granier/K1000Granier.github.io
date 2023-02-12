@@ -46,15 +46,28 @@
   padding: 50px;
 }
 
+
+.uepunktbig {
+float:left;
+margin:0px 0px 0px 0px;
+width:300px;
+}
+.uepunkt:hover ul {
+  display:block;  
+  z-index:500;
+}
+
 .uepunkt {
 float:left;
-margin:0px 0px 0px 45px;
+margin:0px 0px 0px 50px;
 width:120px;
 }
 .uepunkt:hover ul {
   display:block;  
   z-index:500;
 }
+
+
 
 <! FOR THE SCROLLER :
 .demo {
@@ -189,6 +202,7 @@ img.background {
 #nov{float:right;font-family:'Droid Sans',Verdana,Tahoma,sans-serif;text-align:center;}
 #nov ul{list-style:none;}
 #nov li.uepunkt a{color:#111;display:block;font-size:20px;padding-top:0;text-transform:uppercase;font-weight: bold;}
+#nov li.uepunktbig a{color:#111;display:block;font-size:30px;padding-top:0;text-transform:uppercase;font-weight: bold;}
 #nov li.uepunkt a:hover{color:#111;}
 #nov li.uepunkt a.current{color:#000;}
   </style> 
@@ -201,7 +215,12 @@ img.background {
 
 <div class="content">
 <div id="nov" class="clearfix">
-<ul> 		
+  <ul>
+
+<li class="uepunktbig"><a href="https://k1000granier.github.io/">Camille Granier </a> 
+
+</li>
+
 <li class="uepunkt"><a href="https://k1000granier.github.io/research.html">Research</a> 
 
 </li>		
@@ -215,13 +234,10 @@ img.background {
 </ul>
 </div>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p> 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p> 
-<p><span style="font-size: 24pt;">Camille Granier</span></p>			
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p> 
 
 <p>&nbsp; &nbsp;You can download <a href="https://github.com/K1000Granier/K1000Granier.github.io/raw/main/CV_CGranier.pdf"><strong>my CV here</strong></a><strong>.</strong></p>
 
