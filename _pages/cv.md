@@ -15,7 +15,7 @@ Education
 ======
 * PhD in Physics, Université Côte d’Azur, France - Politecnico di Torino, Italy, 2022 
 
-  [You can access my thesis manuscript](https://theses.hal.science/tel-04047928v1/document)
+  [You can access my thesis manuscript here](https://theses.hal.science/tel-04047928v1/document)
 * M.Sc in Physics, Université de Bordeaux, 2019
 * B.Sc in Mathematics, Université de Montpellier, 2017
 
