@@ -83,9 +83,9 @@ author:
   name             : "Camille Granier"
   avatar           : "profile.png"
   bio              : "Postdoctoral Researcher"
-  location         : "96 Boulevard de l'Observatoire, 06300 Nice"
+  location         : "Observatoire Côte D'Azur, France"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=pOJJVcgAAAAJ"
   email            : "camille.granier@oca.eu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
