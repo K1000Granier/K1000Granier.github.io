@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[You can download my complete CV here](https://github.com/K1000Granier/K1000Granier.github.io/raw/main/CV_CGranier.pdf)
+[You can download my complete CV here](K1000Granier.github.io/files/CVGranier.pdf)
 
 Education
 ======
