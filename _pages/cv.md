@@ -9,25 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-[link to full CV](https://beatriceachilli.github.io/files/Curriculum_Vitae_Achilli.pdf)
+[You can download my complete CV here](https://github.com/K1000Granier/K1000Granier.github.io/raw/main/CV_CGranier.pdf)
 
 Education
 ======
-* Ph.D in Statistics and Computer Science, Università Bocconi, 2025 (expected)
-* M.S. in Physics, Università degli Studi di Milano, 2020
-* B.S. in Physics, Università degli Studi di Milano, 2017
+* PhD in Physics, Université Côte d’Azur, France - Politecnico di Torino, Italy, 2022
+* M.Sc in Physics, Université de Bordeaux, 2019
+* B.Sc in Mathematics, Université de Montpellier, 2017
 
 
-Work experience
-======
-* Jan 2021-Sep 2021: Machine Learning and Artificial Intelligence Analyst, Jakala
-* Teaching Assistant: General Mathematics, a.y. 2022-2023, Università Bocconi 
-  
-  
-Skills
-======
-* Programming Languages: Python, Julia, C++
-* Languages: Italian (mothertongue), English (C1)
+
 
 
 <!---
