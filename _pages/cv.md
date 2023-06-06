@@ -13,7 +13,8 @@ redirect_from:
 
 Education
 ======
-* PhD in Physics, Université Côte d’Azur, France - Politecnico di Torino, Italy, 2022
+* PhD in Physics, Université Côte d’Azur, France - Politecnico di Torino, Italy, 2022 
+    [You can access my thesis manuscript](https://github.com/K1000Granier/K1000Granier.github.io/raw/main/CV_CGranier.pdf)
 * M.Sc in Physics, Université de Bordeaux, 2019
 * B.Sc in Mathematics, Université de Montpellier, 2017
 
