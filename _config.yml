@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Camille Granier"
   avatar           : "profile.png"
-  bio              : "Postdoctoral Researcher"
+  bio              : "Postdoctoral Researcher at Laboratoire Lagrange"
   location         : "Observatoire Côte d'Azur, France"
-  employer         :
+  employer         : "CNRS"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=pOJJVcgAAAAJ"
   email            : "camille.granier@oca.eu"
