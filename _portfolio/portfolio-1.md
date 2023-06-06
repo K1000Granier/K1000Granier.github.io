@@ -12,7 +12,7 @@ collection: portfolio
   <p>The study reveals that the formation of plasmoids in collisionless current sheets can occur at an aspect ratio threshold of ≤ 10, an order of magnitude smaller than in resistive magnetohydrodynamics. The reconnection rate associated with the marginally stable current sheets is approximately 0.1 times the product of the Alfvèn speed and the reconnecting magnetic field upstream, explaining fast reconnection in large-scale collisionless systems.</p>
 
 <figure>
-  <img src="/images/plasmoids.png" width="400" >
+  <img src="/images/plasmoids.png" width="600" >
   <figcaption style="text-align: center; font-style: italic;">Légende de l'image</figcaption>
 </figure>
 
