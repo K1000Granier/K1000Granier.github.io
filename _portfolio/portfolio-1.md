@@ -1,6 +1,6 @@
 ---
 title: "Collisionless plasmoid instability"
-excerpt: "Simulation of collisionless magnetic reconnection with strong guide field <br/><img src='/images/plasmoids.png' width='300' height='200'>"
+excerpt: "Simulation of collisionless magnetic reconnection with strong guide field <br/><img src='/images/plasmoids.png' width='400' >"
 collection: portfolio
 ---
 
@@ -18,6 +18,6 @@ collection: portfolio
 
 
 <figure>
-  <img src="/images/gif.gif" >
+  <img src="/images/gif.gif" width="430">
   <figcaption style="text-align: center; font-style: italic;">Légende de l'image</figcaption>
 </figure>
