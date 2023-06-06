@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Beatrice Achilli"
+title                    : "Camille Granier"
 title_separator          : "-"
-name                     : &name "Beatrice Achilli"
-description              : &description "PhD Dtudent in Statistics and Computer Science"
-url                      : https://beatriceachilli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Camille Granier"
+description              : &description "Postdoctoral Researcher"
+url                      : https://k1000granier.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "beatriceachilli/beatriceachilli.github.io"
+repository               : "K1000Granier/K1000Granier.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Beatrice Achilli"
+  name             : "Camille Granier"
   avatar           : "profile.png"
-  bio              : "PhD Student in Statistics and Computer Science"
-  location         : "Milan, Italy"
+  bio              : "Postdoctoral Researcher"
+  location         : "96 Boulevard de l'Observatoire, 06300 Nice"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=pOJJVcgAAAAJ"
+  email            : "camille.granier@oca.eu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "beatriceachilli"
+  github           : "K1000Granier"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/beatrice-achilli-2679431b7/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/camille-granier-3ab56423b/"
+  orcid            : "https://orcid.org/0000-0003-2841-8153"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
