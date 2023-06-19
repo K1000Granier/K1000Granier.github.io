@@ -13,10 +13,8 @@ redirect_from:
 
 Employment
 ======
-* Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik (IPP), Germany
-With Prof. F. Jenko (IPP), 2023
-* Postdoctoral Researcher, Observatoire de la Côte d’Azur, CNRS, Nice, France
-With Dr. T. Passot (CNRS), Dr. E. Tassi (CNRS), 5 months in 2023
+* Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik (IPP), Germany, 2023
+* Postdoctoral Researcher, Observatoire de la Côte d’Azur, France, 5 months in 2023
 
 
 Education
