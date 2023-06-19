@@ -11,6 +11,14 @@ redirect_from:
 
 [You can download my complete CV here](https://K1000Granier.github.io/files/CVGranier.pdf)
 
+Employment
+======
+* Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik (IPP), Germany
+With Prof. F. Jenko (IPP), 2023
+* Postdoctoral Researcher, Observatoire de la Côte d’Azur, CNRS, Nice, France
+With Dr. T. Passot (CNRS), Dr. E. Tassi (CNRS), 5 months in 2023
+
+
 Education
 ======
 * PhD in Physics, Université Côte d’Azur, France - Politecnico di Torino, Italy, 2022 
