@@ -12,11 +12,17 @@ collection: portfolio
   <p>The study reveals that the formation of plasmoids in collisionless current sheets can occur at an aspect ratio threshold of ≤ 10.</p>
 -->
 
-
-  <img src="/images/plasmoids.png" width="250" >
-  <figcaption style="text-align: center; font-style: italic;"> Evolution of the current sheet. Out of plane electron velocity with magnetic field lines in black.</figcaption>
-
+<p>In these studies, we investigate the collisionless plasmoid instability in the context of magnetic reconnection. The first study (<i>Granier, PRE 2022</i>) focuses on the marginal stability conditions for the formation of plasmoids in collisionless current sheets with a strong guide field. We analyze the geometry of the reconnecting current sheet and identify the regimes in which plasmoid instability occurs. The study shows that plasmoids can be formed from current sheets with a smaller aspect ratio compared to the collisional regime. The findings reveal that the aspect ratio of the marginally stable current layers' plasma flow channel is approximately 0.1 times the current sheet thickness.</p>
+<p>The second study (<i>Granier, JPP 2023</i>) expands on the investigation by analyzing the impact of finite electron beta (<i>β<sub>e</sub></i>) and electron Larmor radius effects on the collisionless plasmoid instability in the presence of a strong guide field. Comparisons between gyrofluid and gyrokinetic simulations demonstrate the capability of gyrofluid models in predicting the observed plasmoid instability. The results indicate that finite <i>β<sub>e</sub></i> promotes plasmoid growth and reduces the critical aspect ratio for plasmoid formation. The study provides insights into the role of electron-scale effects in collisionless reconnection mediated by the plasmoid instability.</p>
 
 
-  <img src="/images/gif.gif" width="300">
-  <figcaption style="text-align: center; font-style: italic;">Out of plane electron velocity with magnetic field lines in black.</figcaption>
+<p>Both studies employ the numerical solver SCOPE3D, which solves the collisionless plasma equations, and the advancements in time are performed using a third-order Adams-Bashforth scheme. The first study (<i>Granier, PRE 2022</i>) solely uses the fluid numerical solver, while the second study (<i>Granier, JPP 2023</i>) adapts SCOPE3D to solve the gyrofluid equations and includes gyrokinetic simulations using the AstroGK model.</p>
+<p>Overall, these studies contribute to understanding the collisionless plasmoid instability and its influence on magnetic reconnection. The findings highlight the importance of various parameters, such as electron and ion-sound Larmor radii, in determining the formation and growth of plasmoids in current sheets. The results obtained from the fluid and gyrofluid models provide valuable insights into the stability of current sheets and the role of electron-scale effects in collisionless reconnection.</p>
+
+
+<img src="/images/gif.gif" width="300">
+<figcaption style="text-align: center; font-style: italic;">Out of plane electron velocity with magnetic field lines in black.</figcaption>
+
+<img src="/images/plot_Lcs2.pdf" width="300">
+<figcaption style="text-align: center; font-style: italic;">Parameter space diagram that identifies where the plasmoid instability leads to the break up of the CS.</figcaption>
+
