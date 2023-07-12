@@ -9,7 +9,8 @@ author_profile: true
 
 Publications in International Refereed Journals
 ======
-**Accepted** 	C. Granier, R. Numata, D. Borgogno, E. Tassi, D. Grasso, *Investigation of the collisionless plasmoid instability based on fluid, gyrofluid and gyrokinetic integrated approach*, J. Plasma Phys. [https://arxiv.org/abs/2302.03073](https://arxiv.org/abs/2302.03073)
+**2023** 	C. Granier, R. Numata, D. Borgogno, E. Tassi, D. Grasso, *Investigation of the collisionless plasmoid instability based on fluid, gyrofluid and gyrokinetic integrated approach*, J. Plasma Phys. [https://arxiv.org/abs/2302.03073](https://doi.org/10.1017/S0022377823000570
+)
 
 **2022** 	C. Granier, D. Borgogno, L. Comisso, D. Grasso, E. Tassi, R. Numata, *Marginally Stable Current Sheets in Collisionless Magnetic Reconnection*. Phys. Rev. E. 106, L043201. [https://doi.org/10.1103/PhysRevE.106.L043201](https://doi.org/10.1103/PhysRevE.106.L043201)
 
