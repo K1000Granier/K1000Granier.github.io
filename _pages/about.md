@@ -22,11 +22,12 @@ Some of my research interests are listed below:
 - Plasma instabilities
 - Fluid modelling
 
+<p></p>
 
 News
 ===
-[Transalpine workshop on magnetic reconnection and turbulence in space and fusion plasmas](https://www.oca.eu/en/workshop)
-15 and 16 May 2024, Observatoire de la Côte d'Azur, Nice, France>
+<p>[Transalpine workshop on magnetic reconnection and turbulence in space and fusion plasmas](https://www.oca.eu/en/workshop)</p>
+<p>15 and 16 May 2024, Observatoire de la Côte d'Azur, Nice, France</p>
   
 
 
