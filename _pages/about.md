@@ -20,7 +20,14 @@ Some of my research interests are listed below:
 - Magnetic reconnection & plasmoid instabity (relativistic and non-relativistic)
 - Turbulence (space physics and solar wind)
 - Plasma instabilities
-- Fluid modelling 
+- Fluid modelling
+
+News
+===
+[https://www.oca.eu/en/workshop](Transalpine workshop on magnetic reconnection and turbulence in space and fusion plasmas)
+15 et 16 mai 2024
+Observatoire de la Côte d'Azur boulevard de l'Observatoire, Nice, France
+  
 
 
 
