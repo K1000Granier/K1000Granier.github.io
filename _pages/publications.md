@@ -9,7 +9,10 @@ author_profile: true
 
 Publications in International Refereed Journals
 ======
-**Submitted**   T. Passot, S. S. Cerri, **C. Granier**, D. Laveder, P.L. Sulem, E. Tassi, Gyrofluid simulations of turbulence and reconnection in space plasmas [https://arxiv.org/abs/2401.03863](https://arxiv.org/abs/2401.03863)
+
+**Submitted (ApJ)** **C. Granier**, S. S. Cerri, F. Jenko, Electron-only reconnection and ion heating in 3D3V hybrid-Vlasov plasma turbulence [https://arxiv.org/abs/2405.16686](https://arxiv.org/abs/2405.16686)
+
+*2024**   T. Passot, S. S. Cerri, **C. Granier**, D. Laveder, P.L. Sulem, E. Tassi, Gyrofluid simulations of turbulence and reconnection in space plasmas [https://www.sciencedirect.com/science/article/pii/S2772828524000207](https://www.sciencedirect.com/science)
 
 **2024**   **C. Granier**,  E. Tassi, D. Laveder, T. Passot, P. L. Sulem,  *Influence of ion-to-electron temperature ratio on tearing instability and resulting subion-scale turbulence in a low-βe collisionless plasma* Phys. Plasmas 1 March 2024; 31 (3): 032115. [https://doi.org/10.1063/5.0185897](https://doi.org/10.1063/5.0185897)
 
