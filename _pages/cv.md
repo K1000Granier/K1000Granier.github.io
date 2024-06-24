@@ -1,5 +1,6 @@
 ---
 layout: archive
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -12,14 +13,12 @@ redirect_from:
 [You can download my complete CV here](https://K1000Granier.github.io/files/CVGranier.pdf)
 --->
 
-Employment
-=====
+<h2 style="font-size: 1.5em;">Employment</h2>
 * Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik (IPP), Germany, 2023
 * Postdoctoral Researcher, Observatoire de la Côte d’Azur, France, 5 months in 2023
 
 
-Education
-=====
+<h2 style="font-size: 1.5em;">Education</h2>
 * PhD in Physics, Université Côte d’Azur, France - Politecnico di Torino, Italy, 2022 
 
   [You can access my thesis manuscript here](https://theses.hal.science/tel-04047928v1/document)
