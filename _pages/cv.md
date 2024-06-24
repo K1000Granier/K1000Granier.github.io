@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+<!---title: "CV"--->
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -14,13 +14,13 @@ redirect_from:
 --->
 
 Employment
-======
+=====
 * Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik (IPP), Germany, 2023
 * Postdoctoral Researcher, Observatoire de la Côte d’Azur, France, 5 months in 2023
 
 
 Education
-======
+=====
 * PhD in Physics, Université Côte d’Azur, France - Politecnico di Torino, Italy, 2022 
 
   [You can access my thesis manuscript here](https://theses.hal.science/tel-04047928v1/document)
