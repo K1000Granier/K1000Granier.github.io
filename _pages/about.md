@@ -17,7 +17,7 @@ My research focuses on plasma astrophysics. Much of my work involves analytic ca
 
 Some of my research interests are listed below:
 
-- Magnetic reconnection & plasmoid instabity (relativistic and non-relativistic)
+- Magnetic reconnection & plasmoid instability (relativistic and non-relativistic)
 - Turbulence (space physics and solar wind)
 - Plasma instabilities
 - Fluid modelling
