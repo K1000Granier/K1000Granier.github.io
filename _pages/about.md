@@ -25,9 +25,8 @@ Some of my research interests are listed below:
 
 News
 ===
-<[Transalpine workshop on magnetic reconnection and turbulence in space and fusion plasmas](https://www.oca.eu/en/workshop)>
-<15 and 16 May 2024>
-<Observatoire de la Côte d'Azur, Nice, France>
+[Transalpine workshop on magnetic reconnection and turbulence in space and fusion plasmas](https://www.oca.eu/en/workshop)
+15 and 16 May 2024, Observatoire de la Côte d'Azur, Nice, France>
   
 
 
