@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-<!---
-[You can download my complete CV here](https://K1000Granier.github.io/files/CVGranier.pdf)
---->
+
+[Download my complete CV](https://K1000Granier.github.io/files/CV_Granier.pdf)
+
 
 <h2 style="font-size: 1.1em;">Employment</h2>
 * Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik (IPP), Germany, 2023
