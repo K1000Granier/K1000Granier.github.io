@@ -14,8 +14,9 @@ redirect_from:
 
 
 <h2 style="font-size: 1.1em;">Employment</h2>
-* Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik (IPP), Germany, 2023
-* Postdoctoral Researcher, Observatoire de la Côte d’Azur, France, 4 months in 2023
+* Postdoctoral Researcher, KU Leuven, Germany, 2025 
+* Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik (IPP), Germany, 2023-2024
+* Postdoctoral Researcher (4 months), Observatoire de la Côte d’Azur, France, 2023
 
 
 <h2 style="font-size: 1.1em;">Education</h2>
