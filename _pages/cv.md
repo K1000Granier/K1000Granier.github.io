@@ -15,7 +15,7 @@ redirect_from:
 
 <h2 style="font-size: 1.1em;">Employment</h2>
 * Postdoctoral Researcher, KU Leuven, Belgium, 2025 
-* Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik (IPP), Germany, 2023-2024
+* Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik, Germany, 2023-2024
 * Postdoctoral Researcher (4 months), Observatoire de la Côte d’Azur, France, 2023
 
 
