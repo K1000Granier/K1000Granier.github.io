@@ -25,17 +25,18 @@ Some of my research interests are listed below:
 <p></p>
 <p></p>
 
-
 <hr>
 <h2 style="font-size: 1.2em;">News</h2>
-* Jan. 2024: I moved to KU Leuven to work in Prof. Fabio Bacchini's group. 
 
-* [Transalpine Workshop: magnetic reconnection and turbulence in space and fusion plasmas](https://www.oca.eu/en/workshop) 15 and 16 May 2024, Observatoire de la Côte d'Azur, Nice, France. 
+<ul>
+  <li><span style="color: blue;">January 2024</span>. I moved to KU Leuven to work in Prof. Fabio Bacchini's group.</li>
+  <li><span style="color: blue;">May 2024</span>. Recorder Talk (in French :)). <a href="https://www.youtube.com/watch?v=cEPpevsQGhM&t=1589s">French Society of Physics Conference</a></li>
+  <li><span style="color: blue;">May 2024</span>. Workshop. <a href="https://www.oca.eu/en/workshop">Transalpine Workshop: magnetic reconnection and turbulence in space and fusion plasmas</a>, Observatoire de la Côte d'Azur, Nice, France.</li>
+  <li><span style="color: blue;">July 2023</span>. Recorder Talk. <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/jpp-frontiers-of-plasma-physics-colloquium">JPP Frontiers of Plasma Physics Colloquium</a>.</li>
+</ul>
 
-* Talk: [JPP Frontiers of Plasma Physics Colloquium](https://www.cambridge.org/core/journals/journal-of-plasma-physics/jpp-frontiers-of-plasma-physics-colloquium) on Thursday 20th July 2023.
-
-<!--During my PhD, I focused on addressing various aspects of collisionless reconnection in two-dimensional systems. Specifically, I conducted simulations and mathematical modeling to explore the fundamental physics of this process. Additionally, I investigated the impact of an anisotropic equilibrium temperature distribution and a finite βe parameter on magnetic reconnection and the formation of plasmoids.-->
 <p></p>
 <p></p>
+
 
 Last updated: 10.01.2024
