@@ -35,5 +35,7 @@ Some of my research interests are listed below:
 * Talk: [JPP Frontiers of Plasma Physics Colloquium](https://www.cambridge.org/core/journals/journal-of-plasma-physics/jpp-frontiers-of-plasma-physics-colloquium) on Thursday 20th July 2023.
 
 <!--During my PhD, I focused on addressing various aspects of collisionless reconnection in two-dimensional systems. Specifically, I conducted simulations and mathematical modeling to explore the fundamental physics of this process. Additionally, I investigated the impact of an anisotropic equilibrium temperature distribution and a finite βe parameter on magnetic reconnection and the formation of plasmoids.-->
+<p></p>
+<p></p>
 
 Last updated: 10.01.2024
