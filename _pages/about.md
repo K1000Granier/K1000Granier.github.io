@@ -29,7 +29,7 @@ Some of my research interests are listed below:
 <h2 style="font-size: 1.2em;">News</h2>
 
 <ul>
-  <li><span style="color: #4682B4; font-weight: bold;">January 2024</span>. Now in KU Leuven.</li>
+  <li><span style="color: #4682B4; font-weight: bold;">January 2025</span>. Now in KU Leuven.</li>
   <li><span style="color: #4682B4; font-weight: bold;">May 2024</span>. Recorded Talk (in French :)). <a href="https://www.youtube.com/watch?v=cEPpevsQGhM&t=1589s">French Society of Physics Conference</a></li>
   <li><span style="color: #4682B4; font-weight: bold;">May 2024</span>. Workshop. <a href="https://www.oca.eu/en/workshop">Magnetic reconnection and turbulence in space and fusion plasmas</a>, Observatoire de la Côte d'Azur, Nice.</li>
   <li><span style="color: #4682B4; font-weight: bold;">July 2023</span>. Recorded Talk. <a href="https://www.cambridge.org/core/journals/journal-of-plasma-physics/jpp-frontiers-of-plasma-physics-colloquium">JPP Frontiers of Plasma Physics Colloquium</a>.</li>
