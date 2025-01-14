@@ -14,7 +14,7 @@ redirect_from:
 
 
 <h2 style="font-size: 1.1em;">Employment</h2>
-* Postdoctoral Researcher, KU Leuven, Germany, 2025 
+* Postdoctoral Researcher, KU Leuven, Belgium, 2025 
 * Postdoctoral Researcher, Max-Planck-Institut für Plasmaphysik (IPP), Germany, 2023-2024
 * Postdoctoral Researcher (4 months), Observatoire de la Côte d’Azur, France, 2023
 
@@ -23,8 +23,8 @@ redirect_from:
 * PhD in Physics, Université Côte d’Azur, France - Politecnico di Torino, Italy, 2022 
 
   [You can access my thesis manuscript here](https://theses.hal.science/tel-04047928v1/document)
-* M.Sc in Physics, Université de Bordeaux, 2019
-* B.Sc in Mathematics, Université de Montpellier, 2017
+* M.Sc in Physics, Université de Bordeaux, France, 2019
+* B.Sc in Mathematics, Université de Montpellier, France, 2017
 
 
 
