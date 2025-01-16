@@ -25,6 +25,10 @@ Some of my research interests are listed below:
 <p></p>
 <p></p>
 
+ <!-- This website is intended as a hub where you can find links to recorded talks, public data repositories from my simulations, and materials such as project results or code scripts.-->
+<p></p>
+<p></p>
+
 <hr>
 <h2 style="font-size: 1.2em;">News</h2>
 
@@ -38,7 +42,12 @@ Some of my research interests are listed below:
 <p></p>
 <p></p>
 <p></p>
+<p></p>
+<p></p>
 
 <hr>
+
+<p></p>
+<p></p>
 
 Last updated: 10.01.2024
